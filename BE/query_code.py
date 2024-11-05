@@ -18,7 +18,7 @@ CORS(app)
 # db_path = "/home/lam/Documents/prj3_copy/prj3/data/db.sqlite3"
 basedir = os.path.dirname(os.path.dirname((os.path.dirname(__file__))))
 #db_path = os.path.join(basedir, 'Data_Project3')
-db_path = r"D:\\Edu\\CoAuthor_Network\\Proj 3 Lâm _ Data Dong tac gia\\Project3\Data_Project3\db.sqlite3"
+db_path = r"D:\Edu\CoAuthor_Network\CoAuthor-Network(Proj-3-Lam)\Data_Project3\db.sqlite3"
 
 @app.route('/get_dates_of_topics', methods=['POST'])
 def _get_dates_of_topics():
